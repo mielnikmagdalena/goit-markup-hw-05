@@ -153,6 +153,29 @@ figure {
     align-items: center;
     gap: 10px;
 }
+.active-link::after {
+    content: '';
+    width: 53px;
+    position: absolute;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+}
+.slide-box {
+    background: rgba(33, 150, 243, 0.9);
+    vertical-align: middle;
+    position: relative;
+}
+.slide-box h3 {
+    position: absolute;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
 .offers {
     position: relative;
     vertical-align: bottom;
