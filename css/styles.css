@@ -38,6 +38,9 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn {
     position: absolute;
@@ -59,10 +62,6 @@ figure {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition-property: transform;
-    transform: scale(0.5);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -95,12 +94,21 @@ figure {
 .contacts a:hover,
 .contacts a:focus {
     color: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail a:hover svg {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail a:focus svg {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .envelope-icon {
     fill: var(--lightgrey);
@@ -108,12 +116,21 @@ figure {
 .envelope-icon:hover,
 .envelope-icon:focus {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel a:hover svg {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel a:hover svg {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .smartphone-icon {
@@ -122,6 +139,9 @@ figure {
 .smartphone-icon:hover,
 .smartphone-icon:focus {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail a {
     display: flex;
@@ -157,10 +177,16 @@ figure {
 .signs:focus {
     border-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .signs:hover svg,
 .signs:focus svg {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients {
@@ -211,6 +237,9 @@ figure {
 .join-us-svg:focus {
     background-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .instagram-icon {
     fill: var(--verylightgrey);
@@ -225,9 +254,15 @@ figure {
 .instagram-icon:focus {
     background-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .instagram-icon:hover svg {
     fill: var(--white);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .twitter-icon {
@@ -244,9 +279,15 @@ figure {
 .twitter-icon:focus {
     background-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .twitter-icon:hover svg {
     fill: var(--white);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .facebook-icon {
     margin-right: 10px;
@@ -262,9 +303,15 @@ figure {
 .facebook-icon:focus {
     background-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .facebook-icon:hover svg {
     fill: var(--white);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .linkedin-icon {
     margin-right: 10px;
@@ -280,9 +327,15 @@ figure {
 .linkedin-icon:focus {
     background-color: var(--dodgerblue);
     cursor: pointer;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .linkedin-icon:hover svg {
     fill: var(--white);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .instagram {
     margin-right: 10px;
@@ -293,6 +346,9 @@ figure {
 .instagram:hover,
 .instagram:focus {
     background-color: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .twitter {
     margin-right: 10px;
@@ -301,6 +357,9 @@ figure {
 .twitter:hover,
 .twitter:focus {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .facebook {
     margin-right: 10px;
@@ -309,6 +368,9 @@ figure {
 .facebook:hover,
 .facebook:focus {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .linkedin {
@@ -318,6 +380,9 @@ figure {
 .linkedin:hover,
 .linkedin:focus {
     fill: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heading {
@@ -456,6 +521,9 @@ figure {
 .nav-list a:hover,
 .nav-list a:focus {
     color: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link {
@@ -485,12 +553,18 @@ figure {
 .button-list button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-list button:hover,
 .button-list button:focus {
     color: var(--white);
     background-color: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-list {
     padding-top: 94px;
@@ -622,6 +696,9 @@ figure {
 .second-contacts a:hover,
 .second-contacts a:focus {
     color: var(--dodgerblue);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section {
     padding: 94px 0;
