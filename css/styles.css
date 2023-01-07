@@ -155,8 +155,11 @@ figure {
 }
 .offers {
     position: relative;
+    vertical-align: bottom;
 }
 .offers p {
+    width: 100%;
+    text-align: center;
     position: absolute;
     font-family: 'Roboto';
     font-weight: 700;
@@ -167,9 +170,7 @@ figure {
     text-transform: uppercase;
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
-    overflow: hidden;
-    z-index: 1;
-    padding: 27px 94px;
+    padding: 27px;
     bottom: 0;
 }
 .our-atributes {
