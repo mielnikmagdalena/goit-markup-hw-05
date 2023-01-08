@@ -153,6 +153,9 @@ figure {
     align-items: center;
     gap: 10px;
 }
+.active-link {
+    position: relative;
+}
 .active-link::after {
     content: '';
     width: 100%;
@@ -161,24 +164,35 @@ figure {
     background: #2196f3;
     border-radius: 2px;
     bottom: -36px;
+    left: 0;
 }
 .slide-box {
-    background: rgba(33, 150, 243, 0.9);
-    vertical-align: middle;
     position: relative;
 }
-.slide-box h3 {
+.box-overlay {
     position: absolute;
-    width: 100%;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
     color: #ffffff;
+    background-color: rgba(33, 150, 243, 0.9);
+    display: none;
+    bottom: -100%;
+}
+.slide-box:hover .box-overlay {
+    display: block;
+    background: rgba(33, 150, 243, 0.9);
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    bottom: 0;
 }
 .offers {
     position: relative;
+}
+.offers img {
     vertical-align: bottom;
 }
 .offers p {
