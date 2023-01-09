@@ -168,6 +168,7 @@ figure {
 }
 .slide-box {
     position: relative;
+    overflow: hidden;
 }
 .box-overlay {
     position: absolute;
@@ -178,14 +179,13 @@ figure {
     letter-spacing: 0.03em;
     color: #ffffff;
     background-color: rgba(33, 150, 243, 0.9);
-    display: none;
-    transform: translateY(-100%);
+    transform: translateY(0);
     padding: 49px 45px 24px;
 }
 .slide-box:hover .box-overlay {
     display: block;
     background: rgba(33, 150, 243, 0.9);
-    transform: translateY(0);
+    transform: translateY(-100%);
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
